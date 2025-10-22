@@ -13,7 +13,7 @@ const anthropic = new Anthropic({
     // for ANTHROPIC_API_KEY
     apiKey: import.meta.env.VITE_ANTHROPIC_API_KEY,
 
-    // Because the request is from browser we have to allw it on the client side
+    // Because the request is from browser we have to allow it on the client side
     dangerouslyAllowBrowser: true,
 })
 
