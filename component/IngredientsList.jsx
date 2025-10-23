@@ -1,6 +1,6 @@
 export default function IngredientsList(props) {
 
-     const ingredientListItems = props.ingredients.map(ingredient => (
+    const ingredientListItems = props.ingredients.map(ingredient => (
         <li key={"ingredient"}>{ingredient}</li>
     ))
 
