@@ -15,6 +15,7 @@ export default function Main() {
         setRecipe(recipeMarkdown)
     }
 
+    // Hardcoded ingredients just for practical troubleshooting
     const [ingredients, setIngredients] = React.useState(['tomatoes', 'oregano', 'onions', 'cabbage', 'porc'])
 
     // Including forms in react
